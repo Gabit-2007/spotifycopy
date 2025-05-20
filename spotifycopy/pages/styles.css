@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    justify-content: center;
+    text-align: center;
+    height: 30%;
+    width: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5%;
+}
+
+img{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
