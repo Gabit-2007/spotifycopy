@@ -20,7 +20,6 @@ main{
 }
 
 section{
-    
     display: flex;
     flex-wrap: wrap;
 }
@@ -35,6 +34,20 @@ div{
     box-shadow: rgba(255, 255, 255, 0.096) 0px 3px 8px;
     padding: 20px;
     margin: 10px;
+    transition: transform 5s;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+
+div:hover{
+    width: 220px;
+    height: 270px;
+    padding: auto;
+    transition-duration: 3s;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
 }
 
 img{
@@ -44,7 +57,7 @@ img{
 }
 
 .logo{
-    height: 90px;
+    height: 50px;
 }
 
 h1{
@@ -57,7 +70,7 @@ h2{
 }
 
 h3{
-    color: rgb(80, 80, 80);
+    color: rgb(167, 167, 167);
     font-weight: 200;
 }
 
