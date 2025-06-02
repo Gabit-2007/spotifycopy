@@ -40,7 +40,7 @@ div{
 }
 
 div:hover{
-    width: 220px;
+    width: 210px;
     height: 270px;
     padding: auto;
     transition-duration: 3s;
